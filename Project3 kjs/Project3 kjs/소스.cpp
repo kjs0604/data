@@ -13,7 +13,7 @@ int findArryaMax(int score[], int n)
 }
 void main()
 {
-	int score[5] = { 12, 123, 12, 54, 1 };
+	int score[5] = { 12, 123, 12, 54, 1,};
 	int out;
 	out = findArryaMax(score, 5);
 	printf("result = %d", out);
